@@ -1,5 +1,4 @@
-# Perception-and-Use-of-Artificial-Intelligence-in-Dutch-Labor-Market-
-I will use Python to analyze the adoption rate and perceptions of AI among Dutch citizens based on real data collected by CBS.
+# Perception and Use of Artificial Intelligence in Dutch Labor Market
 ## Objectives
 This project aims to answer two questions: _What is the general perception of AI among the Dutch population?_ and _What is the current and expected adoption of AI among Dutch workers, and the current adoption of AI among Dutch companies?_ 
 
@@ -34,20 +33,25 @@ CBS website: https://www.cbs.nl/nl-nl/publicatie/2026/08/ai-in-de-samenleving-er
 
 <img width="312" height="72" alt="Image" src="https://github.com/user-attachments/assets/6628e7c4-5eb0-4ace-a4f7-34733c8cd6ba" />
 
-- Clean and transform raw data 
+- Reshape data format
 
+<img width="642" height="606" alt="image" src="https://github.com/user-attachments/assets/e10847a8-edf8-4ead-81b5-5253a2bbf692" />
 
-- Reshape data format 
+<img width="768" height="72" alt="image" src="https://github.com/user-attachments/assets/f9e4e771-72d0-43e8-93ae-1548db6975a8" />
 
+<img width="913" height="571" alt="image" src="https://github.com/user-attachments/assets/f83a92c8-c9f7-453e-aafb-c169de14284d" />
 
 - Standardize categorical labels 
 
+- Translate from Dutch to English
 
+<img width="1015" height="563" alt="image" src="https://github.com/user-attachments/assets/bb441b9c-0b3c-4df6-a8e2-d970a02958a6" />
+
+<img width="952" height="102" alt="image" src="https://github.com/user-attachments/assets/9890b2fa-0802-4c64-b38a-47b1e05c1d3d" />
 
 - Merge the two datasets together 
 
 <img width="1290" height="493" alt="Image" src="https://github.com/user-attachments/assets/7ed66012-ec0a-47b6-8523-8aaab073574a" /> 
-
 
 
 ## Step 2: Data Analysis 
