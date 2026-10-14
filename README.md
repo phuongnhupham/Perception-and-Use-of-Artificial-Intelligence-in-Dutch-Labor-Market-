@@ -24,7 +24,7 @@ CBS website: https://www.cbs.nl/nl-nl/publicatie/2026/08/ai-in-de-samenleving-er
 
 **- Inspect data, I did the same for the following datasets**
 
-<img width="800" height="362" alt="Image" src="https://github.com/user-attachments/assets/416f3749-530f-4112-98f9-80a6530b848d" />
+<img width="930" height="510" alt="image" src="https://github.com/user-attachments/assets/f0103f70-883d-46db-a201-a606a36c89ed" />
 
 
 **- Remove empty values & rows**
