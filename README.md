@@ -9,9 +9,9 @@ This project consists of 3 main stages:
 
 ## Table of Content 
 [Dataset used](*dataset-used) <br>
-[Step 1: Data Wrangling](*data-wrangling) <br>
-[Step 2: Data Analysis](*data-analytics) <br>
-[Step 3:  Data Visualization](*data-visualization) <br>
+[Step 1: Data Wrangling](*step-1-data-wrangling) <br>
+[Step 2: Data Analysis](*step-2-data-analysis) <br>
+[Step 3:  Data Visualization](*step-3-data-visualization) <br>
 [Key Findings](*key-findings)
 ## Dataset used 
 This project uses four datasets that are specifically about AI and the labor market, which are part of a larger survey, AI in society: experiences and opinions, conducted on the Dutch population aged 18 and above in 2025. It includes responses from different demographic groups to statements about AI. 
@@ -19,21 +19,20 @@ More information about the dataset can be found at the following link:
 CBS website: https://www.cbs.nl/nl-nl/publicatie/2026/08/ai-in-de-samenleving-ervaringen-en-opinies
 ## Step 1: Data Wrangling 
 
-- First, I installed the following libraries 
-
 <img width="528" height="262" alt="Image" src="https://github.com/user-attachments/assets/2ee48102-55a3-4dad-9f86-9244651ddc06" />
 
 
-- Inspect data, I did the same for the following datasets 
+**- Inspect data, I did the same for the following datasets**
 
 <img width="800" height="362" alt="Image" src="https://github.com/user-attachments/assets/416f3749-530f-4112-98f9-80a6530b848d" />
 
 
-- Remove empty values & rows 
+**- Remove empty values & rows**
 
 <img width="312" height="72" alt="Image" src="https://github.com/user-attachments/assets/6628e7c4-5eb0-4ace-a4f7-34733c8cd6ba" />
 
-- Reshape data format
+
+**- Reshape data format**
 
 <img width="642" height="606" alt="image" src="https://github.com/user-attachments/assets/e10847a8-edf8-4ead-81b5-5253a2bbf692" />
 
@@ -41,40 +40,47 @@ CBS website: https://www.cbs.nl/nl-nl/publicatie/2026/08/ai-in-de-samenleving-er
 
 <img width="913" height="571" alt="image" src="https://github.com/user-attachments/assets/f83a92c8-c9f7-453e-aafb-c169de14284d" />
 
-- Standardize categorical labels 
-
-- Translate from Dutch to English
+**- Standardize variables**
 
 <img width="1015" height="563" alt="image" src="https://github.com/user-attachments/assets/bb441b9c-0b3c-4df6-a8e2-d970a02958a6" />
 
 <img width="952" height="102" alt="image" src="https://github.com/user-attachments/assets/9890b2fa-0802-4c64-b38a-47b1e05c1d3d" />
 
-- Merge the two datasets together 
+**- Merge the two datasets together**
 
 <img width="1290" height="493" alt="Image" src="https://github.com/user-attachments/assets/7ed66012-ec0a-47b6-8523-8aaab073574a" /> 
 
 
 ## Step 2: Data Analysis 
 
-- Calculate response proportion 
+**-Reverse code negative questions**
 
-- 
+<img width="545" height="607" alt="image" src="https://github.com/user-attachments/assets/3cad20ba-b5f7-4e8a-8ff5-e3ecde83a22c" />
+
+**- Calculate response proportion & overall balance**
+
+<img width="462" height="420" alt="image" src="https://github.com/user-attachments/assets/ca57d9d4-ba7b-4961-87cf-1074d6484313" />
+
+**- Calculate AI adoption gap**
+
+<img width="376" height="115" alt="image" src="https://github.com/user-attachments/assets/6d1cd97a-079e-451a-a7b7-beca0939a277" />
+
 ## Step 3: Data Visualization & Key Findings
 
 ### Question 1: What is the general perception of AI among the Dutch population?
 #### Graph 1
-Different statements are divided into "Possible Benefits" & "Possible Risks" categories. This chart shows that **Dutch citizens recognize AI’s benefits but are more concerned about its potential risks.** The main concerns are **job loss (75.4%)** and **loss of knowledge and skills (64%)**. At the same time, a notable share of respondents answered **“maybe,”** indicating some uncertainty about AI’s impact. 
+**Key findings**: Different statements are divided into "Possible Benefits" & "Possible Risks" categories. This chart shows that **Dutch citizens recognize AI’s benefits but are more concerned about its potential risks.** The main concerns are **job loss (75.4%)** and **loss of knowledge and skills (64%)**. At the same time, a notable share of respondents answered **“maybe,”** indicating a great amount of uncertainty about AI’s impact. 
 
 <img width="1917" height="907" alt="Image" src="https://github.com/user-attachments/assets/e0e5bcc7-7ee1-4f01-b962-4e958fa6e7a6" />
 
 #### Graph 2
-The distribution of **Dutch citizens' responses leans toward Negative & Uncertain than Positive,** with the response balance at 45.3% (· Positive= 1 · Uncertain = 0.5 · Negative= 0)
+**Key findings**: The distribution of **Dutch citizens' responses leans toward Negative & Uncertain than Positive,** with the response balance at 45.3% (· Positive= 1 · Uncertain = 0.5 · Negative= 0)
 
 <img width="1475" height="1020" alt="Image" src="https://github.com/user-attachments/assets/77a03449-949c-4d41-8afd-8c741443585c" />
 
 ### Question 2: What is the current and expected adoption of AI among Dutch workers, and the current adoption of AI among Dutch companies?
 #### Graph 3
-All demographic groups expect higher use of AI in the next 10 years. 
+**Key findings**: All demographic groups expect higher use of AI in the next 10 years. 
 
 - **Lowest adoption among Primary/VMBO/MBO** , while **Highest among HBO/WO** (56% now → 81% expected). 
 - **Men currently use AI slightly more than women** and also expect higher future use. 
@@ -85,10 +91,10 @@ All demographic groups expect higher use of AI in the next 10 years.
 
 #### Graph 4
 
-**The growth of AI adoption between 2020 and 2024 was driven primarily by language-based and generative AI technologies rather than traditional machine learning applications.** Text mining became the leading AI technology (13.5%) while Natural Language Generation reached 12.3%.
+**Key findings**: The growth of AI adoption between 2020 and 2024 was driven primarily by language-based and generative AI technologies rather than traditional machine learning applications. Text mining became the leading AI technology (13.5%) while Natural Language Generation reached 12.3%.
 <img width="1542" height="755" alt="Image" src="https://github.com/user-attachments/assets/486deb1c-ae84-4b33-b377-273e8976e691" /> 
 
 #### Graph 5
 
-**AI adoption has more than doubled in Dutch companies.**
+**Key findings**: AI adoption has more than doubled in Dutch companies in the span of 4 years.
 <img width="1475" height="741" alt="Image" src="https://github.com/user-attachments/assets/7651a0e9-6998-44cf-a442-e6205b7c275f" />
