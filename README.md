@@ -9,9 +9,13 @@ This project consists of 3 main stages:
 
 ## Table of Content 
 [Dataset used](*dataset-used)
+
 [Step 1: Data Wrangling](*data-wrangling)
+
 [Step 2: Data Analysis](*data-analytics)
+
 [Step 3:  Data Visualization](*data-visualization)
+
 [Key Findings](*key-findings)
 ## Dataset used 
 This project uses four datasets that are specifically about AI and the labor market, which are part of a larger survey, AI in society: experiences and opinions, conducted on the Dutch population aged 18 and above in 2025. It includes responses from different demographic groups to statements about AI. 
